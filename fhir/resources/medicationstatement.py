@@ -308,7 +308,7 @@ class MedicationStatement(domainresource.DomainResource):
         ),
         # if property is element of this resource.
         element_property=True,
-        element_required=True,
+        element_required=False,
         # note: Enum values can be used in validation,
         # but use in your own responsibilities, read official FHIR documentation.
         enum_values=[
